@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
+
+a {
+  color: #646cff;
+  text-decoration: none;
+}
+h3 {
+  color: #af827d;
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+}
+
+h5,
+p,
+small {
+  color: #837d7c;
+}
+
+h4 {
+  color: red;
+}
+
+p {
+  margin: 20px 0 50px 0;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 15px;
+}

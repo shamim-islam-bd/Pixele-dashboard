@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #0f141f;
+  /* color: #fff; */
+}
+
+.dashboard{
+  background-color: #5f6c865b;
+  padding: 5px 8px;
+  border-radius: 10px;
+  /* color: #fff; */
+}
