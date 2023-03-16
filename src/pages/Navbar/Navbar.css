@@ -3,9 +3,15 @@
   /* color: #fff; */
 }
 
-.dashboard{
+.dashboard {
   background-color: #5f6c865b;
   padding: 5px 8px;
   border-radius: 10px;
   /* color: #fff; */
+}
+
+.active {
+  padding: 12px 9px 9px 13px;
+  background-color: #2e3a54;
+  border-radius: 12px;
 }

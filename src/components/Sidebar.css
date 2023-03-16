@@ -1,12 +1,23 @@
 .sidebar {
   background-color: #0f141f;
-  /* color: #fff; */
   padding: 14px;
 }
 
-.global{
-    background: radial-gradient(75.47% 75.47% at 50% 0%, #598BFC 0%, #1A55DB 100%);
-    padding: 5px 8px;
-    border-radius: 10px;
-    color: #fff;
+.global {
+  background: radial-gradient(
+    75.47% 75.47% at 50% 0%,
+    #598bfc 0%,
+    #1a55db 100%
+  );
+  padding: 10px 19px;
+  border-radius: 12px;
+  color: #fff;
 }
+
+.namePlate {
+  background: #2e3a54;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: #c0d1fc;
+}
+

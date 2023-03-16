@@ -1,0 +1,16 @@
+/* .card {
+  position: relative;
+  z-index: -1px;
+}
+.linear {
+  position: absolute;
+  width: 295px;
+  height: 82px;
+  background: radial-gradient(
+    75.47% 75.47% at 50% 0%,
+    #ffffff 0%,
+    #c0d1fc 100%
+  );
+  transform: rotate(40.74deg);
+  opacity: 30%;
+} */

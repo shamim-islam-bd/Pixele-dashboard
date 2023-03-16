@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -19,11 +19,16 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar py-3 text-sm">
+      <nav className="navbar py-[32px] px-5 text-sm">
         {Menus.map((Menu, index) => (
-          <Link key={index} className="m-2 text-white font-sm" to="/">
+          <NavLink
+            key={index}
+            className="m-2 text-white font-sm"
+            to={Menu.src}
+            activeClassName="active"
+          >
             {Menu.title}
-          </Link>
+          </NavLink>
         ))}
       </nav>
     </div>
