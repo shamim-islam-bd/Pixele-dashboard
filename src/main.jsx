@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
 import "./index.css";
-import Banner from "./pages/Banner/Banner";
 import Root from "./routers/Root";
 
 const router = createBrowserRouter([
@@ -11,10 +10,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
-  },
-  {
-    path: "banner",
-    element: <Banner />,
   },
 ]);
 
